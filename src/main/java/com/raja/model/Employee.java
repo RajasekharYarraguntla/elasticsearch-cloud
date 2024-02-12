@@ -14,7 +14,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @NoArgsConstructor
 public class Employee {
     @Id
-    private Long id;
+    private String id;
     private String firstName;
     private String lastName;
     private String department;
